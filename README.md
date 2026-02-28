@@ -52,8 +52,9 @@ Searched the DeviceProcessEvents table for any ProcessCommandLine that contained
 DeviceProcessEvents
 | where DeviceName == "jr-win11vm"
 | where FileName =~ "tor-browser-windows-x86_64-portable-15.0.6.exe"
-| project TimeGenerated, DeviceName, FileName, FolderPath, ActionType, SHA256
+| project TimeGenerated, DeviceName, FileName, FolderPath, ActionType, ProcessCommandLine
 | order by TimeGenerated desc
+
 
 ```
 <img width="1212" alt="image" src="https://github.com/user-attachments/assets/b07ac4b4-9cb3-4834-8fac-9f5f29709d78">
