@@ -38,7 +38,8 @@ DeviceFileEvents
 | project TimeGenerated, DeviceName, ActionType, FileName, FolderPath, SHA256, Account = InitiatingProcessAccountName
 
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/71402e84-8767-44f8-908c-1805be31122d">
+<img width="1217" height="293" alt="Screenshot 1" src="https://github.com/user-attachments/assets/b248bd68-bc70-4e47-a315-6ccc8b60d457" />
+
 
 ---
 
@@ -57,7 +58,8 @@ DeviceProcessEvents
 
 
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/b07ac4b4-9cb3-4834-8fac-9f5f29709d78">
+<img width="1168" height="132" alt="screenshot 2" src="https://github.com/user-attachments/assets/39843715-3437-4cad-b54e-cc9b06fbbab2" />
+
 
 ---
 
@@ -76,7 +78,8 @@ DeviceProcessEvents
 | order by Timestamp desc 
 
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/b13707ae-8c2d-4081-a381-2b521d3a0d8f">
+<img width="1181" height="434" alt="Screenshot 3" src="https://github.com/user-attachments/assets/2533cfd2-6c72-4e6f-8f4e-488a2a838d46" />
+
 
 ---
 
@@ -95,7 +98,8 @@ DeviceNetworkEvents
 | order by Timestamp desc
 
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/87a02b5b-7d12-4f53-9255-f5e750d0e3cb">
+<img width="1189" height="374" alt="Screenshot 4" src="https://github.com/user-attachments/assets/0afa13de-61ee-413b-811e-3f8c19b685d7" />
+
 
 ---
 
